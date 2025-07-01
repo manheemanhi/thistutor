@@ -14,7 +14,7 @@ Requests
 langchain
 langchain-community
 sentence-transformers
-faiss-gpu-cu11
+faiss-gpu
 modelscope
 sentencepiece
 pypdf
