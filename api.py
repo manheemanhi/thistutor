@@ -4,6 +4,9 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 import os
 
+from huggingface_hub import login
+login(token=os.getenv("HUGGINGFACEHUB_API_TOKEN"))
+
 app = FastAPI()
 
 # Load model and tokenizer from Hugging Face (Mistral)
